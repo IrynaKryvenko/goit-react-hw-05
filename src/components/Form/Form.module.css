@@ -1,0 +1,32 @@
+.box {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 5px;
+    height: 40px;
+    display: block;
+    width: 250px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 3px;
+    transition: border-color 250ms linear, background-color 250ms linear,
+        color 250ms linear;
+}
+
+.spanBtn {
+    margin-right: 3px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgb(71, 71, 229);
+    color: bisque;
+    border-color: inherit;
+}

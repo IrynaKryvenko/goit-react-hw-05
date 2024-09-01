@@ -1,0 +1,18 @@
+li {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link {
+    color: blue;
+    transition: color 250ms linear, text-decoration-color 250ms linear;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.link:hover,
+.link:focus {
+    color: rgb(114, 48, 48);
+    text-decoration-color: rgb(114, 48, 48);
+}

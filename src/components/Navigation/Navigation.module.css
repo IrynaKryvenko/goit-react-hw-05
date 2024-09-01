@@ -1,0 +1,23 @@
+.link {
+    display: inline-flex;
+    padding: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    color: inherit;
+    transition: all 0.3s;
+}
+
+.active {
+    color: #4f46e5;
+}
+
+.nav {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: solid 2px #b4b4c6;
+    margin-bottom: 20px;
+}
