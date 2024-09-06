@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Section from "../Section/Section";
 import Loader from "../Loader/Loader";
 import { getReviewsMovie } from "../../api";
-import css from "./MovieReviews.module.css";
+
 
 function MovieReviews() {
   const { movieId } = useParams();
